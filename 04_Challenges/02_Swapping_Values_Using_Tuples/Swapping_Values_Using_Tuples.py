@@ -17,7 +17,7 @@ num2 = int(input("Enter second number: "))
 numbers = (num1, num2)
 
 # Swapping values
-num1, num2 = num2, num1
+numbers = (num2, num1)
 
 # Showing the swapped numbers
-print("Swapped values:", (num1, num2))
+print("Swapped values:", numbers)
